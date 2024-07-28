@@ -21,7 +21,7 @@ func main() {
 		Use:   "openrolesanywhere",
 		Short: "Open-source implementation of an AWS IAM Roles Anywhere client",
 	}
-
+	fmt.Println("Hello, world!")
 	credentialProcessCmd := &cobra.Command{
 		Use:   "credential-process",
 		Short: "Invoked by AWS SDK or CLI for access to AWS",
